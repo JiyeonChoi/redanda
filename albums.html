@@ -26,7 +26,24 @@
 
 <body id="page-top">
 
+<script>
+function btn_lyr(n, t, c){
+var s1 = " <button type=\"button\" class=\"btn btn-info btn-lg float-right\" data-toggle=\"modal\" data-target=\"#myModal";
 
+var number=n;
+var s2="\" style=\"padding: 0.3rem 0.3rem;  margin-bottom: 2%;  background-color: #64a19d;\r\n\" > \r\nlyrics\r\n<\/button>\r\n\r\n  <!-- Modal -->\r\n  <div class=\"modal fade\" id=\"myModal";
+
+var number2=n;
+var s3="\" role=\"dialog\">\r\n    <div class=\"modal-dialog\">\r\n    \r\n      <!-- Modal content-->\r\n      <div class=\"modal-content\">\r\n        <div class=\"modal-header\">\r\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;<\/button>\r\n          <h4 class=\"modal-title\">\r\n"
+var title = t;
+var s4="<\/h4>\r\n        <\/div>\r\n        <div class=\"modal-body\"    style=\"font-size: medium;     text-align: left; \">\r\n"
+var content=c;
+var s6="<\/div>\r\n        <div class=\"modal-footer\">\r\n          <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close<\/button>\r\n        <\/div>\r\n      <\/div>\r\n      \r\n    <\/div>\r\n  <\/div>"
+
+document.write(s1+number+s2+number2+s3+title+s4+content+s6);
+
+}
+</script>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
@@ -78,81 +95,39 @@
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
                 <h4 class="text-white">MONA</h4>
-                <p class="mb-0 text-white-50">  
-
-                   1. Forlorn 
-  <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg float-right" data-toggle="modal" data-target="#myModal" style="padding: 0.3rem 0.3rem;  margin-bottom: 2%;  background-color: #64a19d;
-" > 
-lyrics
-</button>
-
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Forlorn</h4>
-        </div>
-        <div class="modal-body"    style="font-size: medium; ">
-when you came i knew i'd conquered<br>
-yeah, but who was i to wend you onward?<br>
-when my view began to alter<br>
-it was you that made it all worth while<br>
-it got all naughty<br>
-comes a warning with that secret plight<br>
-it's getting raunchy<br>
-as she's with him under the exit light<br>
-i feel a caution in the wind that forbids me to begin<br>
-and when i see you in my dreams, it shows what might have been<br>
-the look in her eyes would evoke<br>
-a fire in mine i couldn't help but stoke<br>
-the taste of glory would provoke<br>
-whispers i should never have spoke<br>
-and nothing but a smile you'd see on her face<br>
-as she awakens things i thought had left this place<br>
-by awakened, i mean reborn<br>
-but even reborn, this love's forlorn<br>
-when you came my mind was really torn<br>
-but i couldn't let you leave without a secret sworn<br>
-and it got all naughty<br>
-a warning comes with that secret blight<br>
-it's getting raunchy<br>
-as she's with him under an exit light<br>
-and i'd guess it's common sense that keeps me on the fence<br>
-and when i see you in my dreams it shows what might have been<br>
-but alas, i've come to accept my fate<br>
-which is to push on forward, unsure but awake<br>
-and nothing but a smile you'd see on my face<br>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-  
-
-
-
-
-
-  <br><audio controls>
+<!--start-->
+<p class="mb-0 text-white-50">  
+ 1. Forlorn &nbsp;
+ <script>btn_lyr(
+    "1",
+    "Forlorn",
+    "when you came i knew i\'d conquered<br>\r\nyeah, but who was i to wend you onward?<br>\r\nwhen my view began to alter<br>\r\nit was you that made it all worth while<br>\r\nit got all naughty<br>\r\ncomes a warning with that secret plight<br>\r\nit\'s getting raunchy<br>\r\nas she\'s with him under the exit light<br>\r\ni feel a caution in the wind that forbids me to begin<br>\r\nand when i see you in my dreams, it shows what might have been<br>\r\nthe look in her eyes would evoke<br>\r\na fire in mine i couldn\'t help but stoke<br>\r\nthe taste of glory would provoke<br>\r\nwhispers i should never have spoke<br>\r\nand nothing but a smile you\'d see on her face<br>\r\nas she awakens things i thought had left this place<br>\r\nby awakened, i mean reborn<br>\r\nbut even reborn, this love\'s forlorn<br>\r\nwhen you came my mind was really torn<br>\r\nbut i couldn\'t let you leave without a secret sworn<br>\r\nand it got all naughty<br>\r\na warning comes with that secret blight<br>\r\nit\'s getting raunchy<br>\r\nas she\'s with him under an exit light<br>\r\nand i\'d guess it\'s common sense that keeps me on the fence<br>\r\nand when i see you in my dreams it shows what might have been<br>\r\nbut alas, i\'ve come to accept my fate<br>\r\nwhich is to push on forward, unsure but awake<br>\r\nand nothing but a smile you\'d see on my face<br>");
+  </script></p>
+  <audio controls>
   <source src="music/MONA/1.ogg">
   <source src="music/MONA/1.mp3">
 Your browser does not support the audio element.
-</audio><br>
+</audio><br><br>
+<!--end-->
+
+<!--start-->
+<p class="mb-0 text-white-50">  
+ 2. 70 &nbsp;
+ <script>btn_lyr(
+    "2",
+    "70",
+    "recall, with me, the folks you know close<br>\r\nsuppose their eyes observe a glow<br>\r\nso slowly closing with the dark. hark!<br>\r\nnow feel the need to reach your mark<br>\r\nno complaints<br>\r\nso why change the mood, when we\u2019re moving on<br>\r\nbut there\u2019s some restraint<br>\r\nsomething pulls the strings from beyond<br>\r\n70 embroidered upon my crest<br>\r\n70 programmed languages<br>\r\ninstall, in me, the new download<br>\r\nsuppose i might alter the code<br>\r\nwhat was it that i wished to discuss?<br>\r\ni must have thrust it from my mind because<br>\r\nthere\u2019s no complaints<br>\r\nand wanes the moon so we\u2019re moving on<br>\r\nbut there\u2019s some update<br>\r\nsomeone pulls the strings from beyond<br>\r\n70 moments all alone<br>\r\n70 year-old eagle bones<br>\r\nit\u2019s funny how i close my eyes and see yours<br>\r\nthe proof that my memories have a place to b<br>e stored\r\nyet they\u2019re whisked away so impossibly quick<br>\r\nlike a snap, or a gesture, or an old limeric<br>k\r\nbeneath the canopy, life has come<br>\r\nto gather, one and all, until night is done<br>\r\nand we\u2019re left standing there all on our own<br>\r\nthey hear \u201Cswitch \u2018em off, shut \u2018em down\u201D<br>\r\nrecoding...<br>\r\n70 days out of vile slumber<br>\r\nhow many more until another rolls round?<br>"
+    );
+  </script></p>
+  <audio controls>
+  <source src="music/MONA/2.ogg">
+  <source src="music/MONA/2.mp3">
+Your browser does not support the audio element.
+</audio><br><br>
+<!--end-->
 
 
-1. Whatever You Get Up To, Just Enjoy<br>
-2. Leftovers<br>
-3. Booze Cruise<br>
-4. Decanter<br>
-5. Full Flux</p>
+
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
